@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Sanatan | Matrimonial | Marriage</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome icon -->
+    <link href="fontawesome/css/fontawesome-all.css" rel="stylesheet" />
+    <!-- Fontello icon -->
+    <link href="fontello/css/fontello.css" rel="stylesheet" />
+    <!-- OwlCarosuel CSS -->
+    <link href="css/owl.carousel.css" type="text/css" rel="stylesheet" />
+    <link href="css/owl.theme.default.css" type="text/css" rel="stylesheet" />
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo/logo.png" />
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/select2.min.css" />
+
+    <link rel="stylesheet" href="css/chosen.min.css" />
+  </head>
+
+  <body>
+    <!-- kyc start -->
+    <section class="bg-dark" style="width: 100%; height: 100%;">
+      <div class="container">
+        <div
+          class="row d-flex justify-content-center align-items-center"
+          style="height: auto"
+        >
+          <div class="col-lg-8 offset-lg-2">
+            <div class="card p-4">
+              <div class="text-center">
+                <h2>It is now mandatory to verify your profile on Sanatan</h2>
+                <h5>Verify your profile now</h5>
+                <p>
+                  We are moving towards a more secure platform by verifying our
+                  users’ basic details.
+                </p>
+                <img src="images/verify.png" alt="" srcset="" />
+                <h4>Securely verify using</h4>
+              </div>
+              <!-- tabs start -->
+              <div>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="Voter-tab"
+                      data-toggle="tab"
+                      data-target="#Voter"
+                      type="button"
+                      role="tab"
+                      aria-controls="Voter"
+                      aria-selected="true"
+                    >
+                      Voter ID
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="PAN-tab"
+                      data-toggle="tab"
+                      data-target="#PAN"
+                      type="button"
+                      role="tab"
+                      aria-controls="PAN"
+                      aria-selected="false"
+                    >
+                      PAN Card
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="Passport-tab"
+                      data-toggle="tab"
+                      data-target="#Passport"
+                      type="button"
+                      role="tab"
+                      aria-controls="Passport"
+                      aria-selected="false"
+                    >
+                      Passport
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="Driving-tab"
+                      data-toggle="tab"
+                      data-target="#Driving"
+                      type="button"
+                      role="tab"
+                      aria-controls="Driving"
+                      aria-selected="false"
+                    >
+                      Driving License
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="Aadhar-tab"
+                      data-toggle="tab"
+                      data-target="#Aadhar"
+                      type="button"
+                      role="tab"
+                      aria-controls="Aadhar"
+                      aria-selected="false"
+                    >
+                      Aadhar Card
+                    </button>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <div class="tab-content" id="myTabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="Voter"
+                    role="tabpanel"
+                    aria-labelledby="Voter-tab"
+                  >
+                    <div class="mt-4 mb-4">
+                      <div class="form-group service-form-group">
+                        <label
+                          class="control-label sr-only"
+                          for="fname"
+                        ></label>
+                        <input
+                          id="fname"
+                          type="text"
+                          name="fname"
+                          placeholder="Groom's name as per Voter ID"
+                          class="form-control"
+                          required
+                        />
+                        <small id="emailHelp" class="form-text text-muted"
+                          >Update your profile name to exactly match the name on
+                          ID</small
+                        >
+                      </div>
+                      <div class="form-group service-form-group">
+                        <label
+                          class="control-label sr-only"
+                          for="fname"
+                        ></label>
+                        <input
+                          id="fname"
+                          type="text"
+                          name="fname"
+                          placeholder="Groom's name as per Voter ID"
+                          class="form-control"
+                          required
+                        />
+                        <small id="emailHelp" class="form-text text-muted"
+                          >Ensure you enter the 10 digits Voter ID number</small
+                        >
+                      </div>
+                      <div class="form-group form-check">
+                        <div class="row">
+                          <div class="col-1">
+                            <input
+                              type="checkbox"
+                              class="form-check-input"
+                              id="exampleCheck1"
+                            />
+                          </div>
+                          <div class="col-11">
+                            <label class="form-check-label" for="exampleCheck1"
+                              >I hereby allow Info Edge (India) Ltd. to provide
+                              above details to Aadrila Technologies Pvt. Ltd. to
+                              verify ID document from the Issuing Authority The
+                              details will only be used for verification
+                              purposes and not shared with anyone else</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <a href="my-account.html" class="btn btn-primary"
+                          >CONTINUE</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="PAN"
+                    role="tabpanel"
+                    aria-labelledby="PAN-tab"
+                  >
+                    <div class="mt-4 mb-4">
+                      <div class="form-group service-form-group">
+                        <label
+                          class="control-label sr-only"
+                          for="fname"
+                        ></label>
+                        <input
+                          id="fname"
+                          type="text"
+                          name="fname"
+                          placeholder="Groom's name as per PAN Card"
+                          class="form-control"
+                          required
+                        />
+                        <small id="" class="form-text text-muted"
+                          >Update your profile name to exactly match the name on
+                          ID</small
+                        >
+                      </div>
+                      <div class="form-group service-form-group">
+                        <label
+                          class="control-label sr-only"
+                          for="fname"
+                        ></label>
+                        <input
+                          id="fname"
+                          type="text"
+                          name="fname"
+                          placeholder="Enter Groom's PAN No."
+                          class="form-control"
+                          required
+                        />
+                        <small id="" class="form-text text-muted"
+                          >Ensure you enter the 10 digits PAN Card number</small
+                        >
+                      </div>
+                      <div class="form-group form-check">
+                        <div class="row">
+                          <div class="col-1">
+                            <input
+                              type="checkbox"
+                              class="form-check-input"
+                              id="exampleCheck1"
+                            />
+                          </div>
+                          <div class="col-11">
+                            <label class="form-check-label" for="exampleCheck1"
+                              >I hereby allow Info Edge (India) Ltd. to provide
+                              above details to Aadrila Technologies Pvt. Ltd. to
+                              verify ID document from the Issuing Authority The
+                              details will only be used for verification
+                              purposes and not shared with anyone else</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <a href="my-account.html" class="btn btn-primary"
+                          >CONTINUE</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="Passport"
+                    role="tabpanel"
+                    aria-labelledby="Passport-tab"
+                  >
+                    <div class="mt-4 mb-4">
+                      <div class="form-group service-form-group">
+                        <label
+                          class="control-label sr-only"
+                          for="fname"
+                        ></label>
+                        <input
+                          id="fname"
+                          type="text"
+                          name="fname"
+                          placeholder="Groom's name as per Passport Card"
+                          class="form-control"
+                          required
+                        />
+                        <small id="" class="form-text text-muted"
+                          >Update your profile name to exactly match the name on
+                          ID</small
+                        >
+                      </div>
+                      <div class="form-group service-form-group">
+                        <label
+                          class="control-label sr-only"
+                          for="fname"
+                        ></label>
+                        <input
+                          id="fname"
+                          type="text"
+                          name="fname"
+                          placeholder="Enter the File Number on Passport"
+                          class="form-control"
+                          required
+                        />
+                        <small id="" class="form-text text-muted"
+                          >File no. is present on the last page of passport
+                          (minimum 12 digits)</small
+                        >
+                      </div>
+                      <div class="form-group form-check">
+                        <div class="row">
+                          <div class="col-1">
+                            <input
+                              type="checkbox"
+                              class="form-check-input"
+                              id="exampleCheck1"
+                            />
+                          </div>
+                          <div class="col-11">
+                            <label class="form-check-label" for="exampleCheck1"
+                              >I hereby allow Info Edge (India) Ltd. to provide
+                              above details to Aadrila Technologies Pvt. Ltd. to
+                              verify ID document from the Issuing Authority The
+                              details will only be used for verification
+                              purposes and not shared with anyone else</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <a href="my-account.html" class="btn btn-primary"
+                          >CONTINUE</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="Driving"
+                    role="tabpanel"
+                    aria-labelledby="Driving-tab"
+                  >
+                    <div class="mt-4 mb-4">
+                      <div class="form-group service-form-group">
+                        <label
+                          class="control-label sr-only"
+                          for="fname"
+                        ></label>
+                        <input
+                          id="fname"
+                          type="text"
+                          name="fname"
+                          placeholder="Groom's name as per Driving License"
+                          class="form-control"
+                          required
+                        />
+                        <small id="" class="form-text text-muted"
+                          >Update your profile name to exactly match the name on
+                          ID</small
+                        >
+                      </div>
+                      <div class="form-group service-form-group">
+                        <label
+                          class="control-label sr-only"
+                          for="fname"
+                        ></label>
+                        <input
+                          id="fname"
+                          type="text"
+                          name="fname"
+                          placeholder="Enter Groom's Driving License No."
+                          class="form-control"
+                          required
+                        />
+                        <small id="" class="form-text text-muted"
+                          >Enter the full ID without any spaces or hyphen, eg.
+                          DL1420110012345</small
+                        >
+                      </div>
+                      <div class="form-group form-check">
+                        <div class="row">
+                          <div class="col-1">
+                            <input
+                              type="checkbox"
+                              class="form-check-input"
+                              id="exampleCheck1"
+                            />
+                          </div>
+                          <div class="col-11">
+                            <label class="form-check-label" for="exampleCheck1"
+                              >I hereby allow Info Edge (India) Ltd. to provide
+                              above details to Aadrila Technologies Pvt. Ltd. to
+                              verify ID document from the Issuing Authority The
+                              details will only be used for verification
+                              purposes and not shared with anyone else</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <a href="my-account.html" class="btn btn-primary"
+                          >CONTINUE</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="Aadhar"
+                    role="tabpanel"
+                    aria-labelledby="Aadhar-tab"
+                  >
+                    <div class="mt-4 mb-4">
+                      <div class="form-group service-form-group">
+                        <label
+                          class="control-label sr-only"
+                          for="fname"
+                        ></label>
+                        <input
+                          id="fname"
+                          type="text"
+                          name="fname"
+                          placeholder="Groom's name as per Aadhaar Card"
+                          class="form-control"
+                          required
+                        />
+                        <small id="" class="form-text text-muted"
+                          >Update your profile name to exactly match the name on
+                          ID</small
+                        >
+                      </div>
+                      <div class="form-group service-form-group">
+                        <label
+                          class="control-label sr-only"
+                          for="fname"
+                        ></label>
+                        <input
+                          id="fname"
+                          type="text"
+                          name="fname"
+                          placeholder="Enter Groom's Aadhaar Card No."
+                          class="form-control"
+                          required
+                        />
+                        <small id="" class="form-text text-muted"
+                          >Enter the full ID without any spaces or hyphen, eg.
+                        </small>
+                      </div>
+
+                      <div class="form-group form-check">
+                        <div class="row">
+                          <div class="col-1">
+                            <input
+                              type="checkbox"
+                              class="form-check-input"
+                              id="exampleCheck1"
+                            />
+                          </div>
+                          <div class="col-11">
+                            <label class="form-check-label" for="exampleCheck1"
+                              >I hereby allow Info Edge (India) Ltd. to provide
+                              above details to Aadrila Technologies Pvt. Ltd. to
+                              verify ID document from the Issuing Authority The
+                              details will only be used for verification
+                              purposes and not shared with anyone else</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <a href="my-account.html" class="btn btn-primary"
+                          >CONTINUE</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- tabs end -->
+
+              <div class="text-center">
+                <p>Your details will not be stored or visible on the site</p>
+                <h4>EXCLUSIVE BENEFITS</h4>
+                <p>
+                  Get featured in the list of ‘Verified Matches’. Stand out by
+                  having the 'Verified' badge in your profile.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- kyc end -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menumaker.min.js"></script>
+    <!-- owl-carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- nice-select js -->
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/custom-script.js"></script>
+    <script src="js/return-to-top.js"></script>
+
+    <script src="js/chosen.jquery.min.js"></script>
+
+    <!--These jQuery libraries for select2  
+                need to be included-->
+    <script src="js/select2.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        //Select2
+        $(".country").select2({
+          maximumSelectionLength: 100,
+        });
+        //Chosen
+        $(".country1").chosen({
+          max_selected_options: 100,
+        });
+      });
+    </script>
+    <script>
+      //jQuery to collapse the navbar on scroll
+      $(window).scroll(function () {
+        if ($(".header-transparent").offset().top > 200) {
+          $(".fixed-top").addClass("top-nav-collapse");
+        } else {
+          $(".fixed-top").removeClass("top-nav-collapse");
+        }
+      });
+    </script>
+  </body>
+</html>
